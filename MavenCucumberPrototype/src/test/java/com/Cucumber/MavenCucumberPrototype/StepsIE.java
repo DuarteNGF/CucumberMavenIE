@@ -31,7 +31,7 @@ public class StepsIE {
     
 	@Given("^Abrir browser$")
 	public void entrar_no_IE() throws Throwable {
-		File fileIE = new File("C://Selenium//IEDriverServer.exe");
+		File fileIE = new File("webdrivers//IEDriverServer.exe");
 		
 		System.setProperty("webdriver.ie.driver", fileIE.getAbsolutePath());
 	        
